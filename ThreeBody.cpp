@@ -2,7 +2,7 @@
 #include "screen.h"
 #include "vec2.h"
 
-// Estructura para representar un cuerpo celeste
+// Estructura para representar un cuerpo
 struct Body
 {
     float r;      // Radio del cuerpo
