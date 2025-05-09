@@ -1,0 +1,85 @@
+# === ENTORNOS VIRTUALES ===
+.env
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+
+# === PYTHON / CIENCIA DE DATOS ===
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.ipynb
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.csv
+*.tsv
+*.sqlite
+*.db
+*.log
+
+# === NODE / WEB ===
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+*.log
+*.lock
+*.map
+
+# === COMPILADOS / BINARIOS ===
+*.class
+*.exe
+*.dll
+*.so
+*.o
+*.a
+*.out
+
+# === ASSETS PESADOS / TEMPORALES ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*.tmp
+
+# === ARCHIVOS DE SISTEMA ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === EDITORES ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === GIT ===
+*.orig
+
+# === UNITY / UNREAL / GAME ENGINES ===
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+*.unitypackage
+*.psd
+*.blend1
+
+# === CONFIGURACIONES PERSONALES O CLAVES ===
+*.key
+*.pem
+*.crt
+*.env.local
+secret.*
+credentials.*
+config.local.*
